@@ -1,82 +1,77 @@
-/* General Styles */
+/* === General Styles === */
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    color: #333;
+    font-family: "Times New Roman", serif;
+    background-color: #c0c0c0; /* Classic gray background */
+    color: black;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-/* Main Container */
+/* === Main Content Box === */
 .container {
-    max-width: 800px;
+    width: 80%;
     margin: 20px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
 }
 
-/* Headings */
+/* === Headings === */
 h1 {
-    color: #222;
-    text-align: center;
-}
-
-h2 {
-    color: #007bff;
-}
-
-/* Links */
-a {
-    display: block;
-    background: #007bff;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 10px auto;
-    width: fit-content;
-    text-align: center;
-    font-weight: bold;
-}
-
-a:hover {
-    background: #0056b3;
-}
-
-/* Lists */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    background: #eef;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-}
-
-ul li a {
-    background: none;
-    color: #007bff;
-    font-weight: normal;
-    padding: 0;
-    text-align: left;
-}
-
-ul li a:hover {
+    font-size: 24px;
+    color: black;
     text-decoration: underline;
 }
 
-/* Back to Home Button */
-.back-home {
-    background: #28a745;
+h2 {
+    font-size: 20px;
+    color: black;
 }
 
-.back-home:hover {
-    background: #1d7a32;
+/* === Links === */
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* === Lists === */
+ul {
+    padding: 10px;
+    list-style-type: square;
+}
+
+ul li {
+    padding: 5px;
+}
+
+/* === Classic Table Look === */
+table {
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+/* === Buttons (Old-School Look) === */
+button {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: #d0d0d0;
 }
