@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Disclaimer</h1>
+        <p>This website is for **informational purposes only** and is not intended to provide legal, medical, or professional advice. The information presented here is gathered from publicly available sources and is provided **without any guarantees of accuracy or completeness**.</p>
+        
+        <p>We are **not affiliated** with any government, legal, or medical organization. Any actions taken based on the content of this website are at your own discretion. If you require legal or medical advice, please consult a qualified professional.</p>
+
+        <p>This site **does not intend to cause harm, mislead, or infringe on any rights**. If you believe any content should be updated or removed, please contact us.</p>
+
+        <a href="index.html" class="back-home">Back to Home</a>
+    </div>
+</body>
+</html>
