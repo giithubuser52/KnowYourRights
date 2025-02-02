@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Headings */
+h1 {
+    color: #222;
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+}
+
+/* Links */
+a {
+    display: block;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: fit-content;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:hover {
+    background: #0056b3;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #eef;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+ul li a {
+    background: none;
+    color: #007bff;
+    font-weight: normal;
+    padding: 0;
+    text-align: left;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Back to Home Button */
+.back-home {
+    background: #28a745;
+}
+
+.back-home:hover {
+    background: #1d7a32;
+}
